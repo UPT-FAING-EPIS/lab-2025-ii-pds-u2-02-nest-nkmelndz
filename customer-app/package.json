@@ -1,10 +1,17 @@
 {
-  "name": "customer-app",
+  "name": "@UPT-FAING-EPIS/customer-app",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
-  "private": true,
-  "license": "UNLICENSED",
+  "description": "Customer application package",
+  "author": "Cesar Nikolas Camac Melendez",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UPT-FAING-EPIS/lab-2025-ii-pds-u2-02-nest-nkmelndz.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\" \"libs/**/*.ts\"",
